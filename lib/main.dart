@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart';
+import 'screens/navigation_screen.dart';
 
 void main() {
   runApp(const AIStudyBuddyApp());
@@ -11,9 +11,13 @@ class AIStudyBuddyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'AI Study Buddy',
-      home: const SplashScreen(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorSchemeSeed: Colors.blue,
+        useMaterial3: true,
+      ),
+      home: const NavigationScreen(),
     );
   }
 }

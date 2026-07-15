@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class QuizScreen extends StatelessWidget {
-  const QuizScreen({super.key});
+class PlannerScreen extends StatelessWidget {
+  const PlannerScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Quiz"),
+        title: const Text("Planner"),
       ),
       body: const Center(
         child: Text(
-          "🎯 Quiz Coming Soon",
+          "📅 Planner Coming Soon",
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
