@@ -51,7 +51,7 @@ Students often use different applications for:
 
 This creates unnecessary switching between platforms and makes studying less organized.
 
-### 💡 Our Solution
+###  Our Solution
 
 AI Study Buddy combines these learning activities into a single mobile application powered by AI.
 
