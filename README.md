@@ -259,7 +259,7 @@ android/
     └── google-services.json
 ```
 
-> ⚠️ Do not commit private API keys, credentials or sensitive configuration files to GitHub.
+>  Do not commit private API keys, credentials or sensitive configuration files to GitHub.
 
 ---
 
